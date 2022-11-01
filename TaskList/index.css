@@ -1,0 +1,101 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.enter-button {
+  color: black;
+  height: 40px;
+  width: 90px;
+  margin: 10px;
+  border-radius: 10px;
+  border-width: 0;
+  font-size: 28px;
+}
+.check-container {
+  background-color: #a79f9f;
+  height: 60px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 10px solid palevioletred;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.task {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px;
+}
+.check-box {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+}
+.button {
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+  background-color: rgb(168, 229, 231);
+  border-radius: 10px;
+  border-width: 0;
+}
+.label-through {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px;
+  text-decoration: line-through;
+}
+.heading {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+.task-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.completed-button {
+  background-color: chocolate;
+  border-radius: 5px;
+  border-width: 0;
+  color: white;
+  margin: 10px;
+  height: 40px;
+  padding: 10px;
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
